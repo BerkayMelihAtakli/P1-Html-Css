@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        input[type=text] {
+            width: 280px; 
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abonnement afsluiten</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form action="/index.html">
+        <label  for="Voornaam">Voornaam:</label>
+        <input type="text" id="Voornaam" name="Voornaam" pattern="[a-zA-Z\s]+" title="Voornaam mag geen cijfers bevatten" required><br></br>
+        <label for="Achternaam">Achternaam:</label>
+        <input type="text" id="Achternaam" name="Achternaam>" pattern="[a-zA-Z\s]+" title="Achternaam mag geen cijfers bevatten" required>
+        <p>Aanhef</p>
+        <label>
+            <input type="radio" id="dhr." name="aanhef" value="dhr" checked required>
+            <label for="dhr">Dhr.</label>
+            <label type="radio">
+            <input type="radio" id="mevr." name="aanhef" value="mevr." required>
+            <label for="mevr">Mevr.</label>
+            <br></br>
+            <label for="Straat met huisnummer">Straat met huisnummer:</label>
+            <br></br>
+            <input type="text" id="Straat met huisnummer" name="Straat met huisnummer" placeholder="Bijoorbeeld: 'Coolsingel 123'" required>
+         
+            <br></br>
+            <label for="Postcode">Postcode:</label>
+            <br></br>
+            <input type="Postcode" id="Postcode" name="Postcode" placeholder="Bijvoorbeeld:'3062PA'" required>
+            <br></br>
+            <label for="Woonplaats">Woonplaats:</label>
+            <br></br>
+            <input type="Woonplaats" id="Woonplaats" name="Woonplaats" required>
+            <br></br>
+            <label for="Land">Land:</label>
+            <br></br>
+            <input type="Land" id="Land" name="Land" required>
+            <br></br>
+            <label for="IBAN-nummer">IBAN-nummer:</label>
+            <br></br>
+            <input type="IBAN-nummer" id="IBAN-nummer" name="IBAN-nummer" placeholder="NLXX XXX XXXXXXXXXX" pattern="NL[0-9]{2}[A-Z]{4}[0-9]{10}" maxlength="18" title="IBAN-nummer moet beginnen met 'NL', gevolgd door 2 cijfers, 4 letters en 10 cijfers." required>
+            <label for="Abonnement Keuze"><h3>Kies uw Abonnement keuze:</h3></label>
+            <select name="Abonnement Keuze" id="Abonnement Keuze">
+                <option value="Kies een optie">Kies een optie</option>
+                <option value="Mobiel">Mobiel</option>
+                <option value="Glasvezel">Glasvezel</option>
+                <option value="TV">TV</option>
+            </select>
+            <br></br> <label for="Datum van ingang abonnement">Datum van ingang abonnement:</label>
+            <input type="date" id="Datum van ingang abonnement" name="Datum van ingang abonnement" min="2025-09-28" required>
+            <br></br>
+            <label for="Looptijd abonnement">Kies uw Looptijd abonnement:</label>
+            <input type="Loooptijd abonnement" id="Looptijd abonnement" name="Looptijd abonnement" list="looptijdopties" required>
+            <datalist id="looptijdopties">
+                <option value="12 maanden">
+                <option value="24 maanden">
+                <option value="36 maanden">
+            </datalist>
+            <br></br>
+            <label for="Aantal gebruikers op abonnement">Aantal gebruikers op abonnement:</label>
+            <input type="Aantal gebruikers op abonnement" id="Aantal gebruikers op Abonnement" name="Aantal gebruikers op abonnement" list="aantalgebruikersopties" required>
+            <datalist id="aantalgebruikersopties">
+                <option value="1 gebruiker">
+                <option value="2 gebruikers">
+                <option value="3 gebruikers">
+                <option value="4 gebruikers">
+                    </datalist>
+                <br></br>
+                <label for="E-mail">E-mail:</label>
+                <input type="E-mail" id="E-mail" name="E-mail" placeholder="Verplicht voor informatie" required>
+                <br></br>
+                <label for="Wachtwoord">Wachtwoord:</label>
+                <input type="password" id="Wachtwoord" name="Wachtwoord" required>
+                <br></br>   
+                <button type="submit">Sluit het abonnement af</button>
+                </label>
+            </body>
+            
+            
+
+    </form>
+</html>
