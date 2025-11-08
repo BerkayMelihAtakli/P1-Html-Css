@@ -1,0 +1,55 @@
+
+
+* {
+ font-family: ftltlt; /* set name */
+
+}
+
+.stage {  
+    position: center;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+}
+
+.bannerSize{ 
+width: 300px; 
+height: 250px; 
+background-color: black;
+color: white;
+}
+
+.bannerHolder{
+  padding-left:20px;
+}
+
+@font-face {
+  font-family: ftltlt; /* set name */
+  src: url(fonts/ftltlt-webfont.woff); /* url of the font */
+}
+
+ul,
+.li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+
+}
+
+.h2 {
+
+  top: 100px;
+
+}
+
+.bttn {
+
+
+  background-color: ;
+}
+
+
