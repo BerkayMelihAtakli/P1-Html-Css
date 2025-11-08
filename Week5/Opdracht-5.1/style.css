@@ -2,7 +2,9 @@
 
 * {
  font-family: ftltlt; /* set name */
-
+ font-weight: 100;
+ 
+  
 }
 
 .stage {  
@@ -12,7 +14,7 @@
     -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;    
-   overflow: hidden;    
+   overflow:hidden;    
 }
 
 .bannerSize{ 
@@ -20,10 +22,12 @@ width: 300px;
 height: 250px; 
 background-color: black;
 color: white;
+position: relative;
 }
 
 .bannerHolder{
-  padding-left:20px;
+  padding-left:15px;
+  top: 0px;
 }
 
 @font-face {
@@ -40,16 +44,118 @@ ul,
 
 }
 
+.h1 {
+
+  font-size: 50px;
+  margin-bottom: 0px;
+  
+}
+
 .h2 {
 
-  top: 100px;
+  
+  width: 180px;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  font-size: 22px;
+  
+}
+
+.h3 {
+
+  margin-top: 0px;
+  font-size: 14px;
+  margin-bottom: 5px;
+
 
 }
 
-.bttn {
+.simkaart {
 
+  right: 10px;
+  top: 22px;
+  position: absolute;
+  ;
+}
 
-  background-color: ;
+ul li {
+
+  font-size: 14px;
 }
 
 
+
+.button {
+
+  background-color: #7272dd;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  right: 20px;
+  bottom: 15px;
+  padding: 9px 15px;
+  border: 1px solid white;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  transition: transform 180ms ease-in-out;
+
+}
+
+.button:hover {
+
+  background-color: #191435;
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+
+.hi {
+
+  position: absolute;
+  top: 13px;
+  left: 67px;
+}
+
+.kutucontainer {
+
+  display: flex;
+  position: absolute;
+  gap: 5px;
+  top: 23px;
+  
+}
+
+.kutuone {
+
+  width: 19px;
+  height: 7px;
+  background-color: #9000ff;
+  
+}
+
+.kutusecond  {
+  width: 19px;
+  height: 7px;
+  background-color: #55559f;
+}
+
+.kututhird {
+
+  width: 19px;
+  height: 7px;
+  background-color: #b0b0eb;
+  
+}
+
+.yuvarlak1 {
+
+  width: 380px;
+  height: 450px;
+  background-color: #7272dd;
+  border-radius: 100%;
+  right: -130px;
+  position:absolute;
+  z-index: 0;
+  top: 175px;
+}
