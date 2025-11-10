@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+     display: flex;
+     background-color: #7272dd;
+     gap: 30px;
+     font-size: 18px;
+     padding: 18px;
+     list-style: none;
+}
+
+.container li a {
+
+    color: white;
+    text-decoration: none;  
+    margin-left: 30px;
+    
+
+}
+
+
+.hallohi h1 {
+
+    font-size: 65px;
+    color: white;
+    margin-top: 0;
+    padding-top: 5px;
+    
+    
+}
+
+
+.hallohi p {
+
+    margin-bottom: 30px;
+}
+
+
+
+.hallohi {
+
+    background-color: black;
+    color: white;
+    height: 60dvh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    align-content: space-between;
+    padding-left: 150px;
+    position: relative;
+    
+
+}
+
+.button {
+
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    
+
+
+}
+
+.buttoncontainer {
+    display: flex;
+    gap: 20px;
+}
+
+
+.one {
+
+    border: 1px solid white;
+    padding: 14px 37px;
+
+    
+}
+
+
+ul,li{
+    margin: 0;
+    padding:0;
+}
+
+
+.second {
+
+    background-color: #9000ff;
+    padding: 14px 30px;
+    
+}
+
+
+.hallohiv2 {
+
+    background-color: white;
+    color: black;    
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 50px;
+    position: relative;
+}
+
+
+.hallohiv2 ul li {
+
+    list-style: none;
+}
+
+.hallohiv2 ul li p {
+
+    padding-right: 80px;
+}
+
+.iphone {
+
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+
+.third {
+
+    padding: 14px 30px;
+    
+}
+
+.girl {
+
+    width: 350px;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    
+}
+
+.container2 {
+    display: flex;
+    background-color: #7272dd;
+    height: 25dvh;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-links {
+
+     display: flex;
+     gap: 30px;
+     font-size: 18px;
+     padding: 18px;
+     list-style: none;
+     height: 100px;
+    list-style: none;
+}
+
+.container2 li a {
+
+    gap: 50px;
+    font-size: 18px;
+    padding: 18px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+
+.appleimg {
+
+    width: 150px;
+    
+}
+
+
+.googleplayimg {
+
+
+    width: 150px;
+}
+
+.platforms {
+
+    gap: 30px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 25dvh;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.platforms li,
+.platforms li a {
+
+    margin: 0;
+    padding: 0;
+}
+
+.ftr-img {
+    margin: 0;
+}
+
+
+.dropdown {
+   
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #7272dd;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom-right-radius: 50px;
+    min-width: 220px;
+    z-index: 100;
+
+
+    
+}
+
+
+.dropdown li a {
+
+    color: white;
+    text-decoration: none;
+    display: block;
+  
+    white-space: nowrap;
+
+
+}
+
+.dropdown li a:hover {
+
+    color: black;
+
+}
+
+
+.service:hover .dropdown {
+
+    display: block;
+}
+
+.service {
+
+    position: relative;
+}
