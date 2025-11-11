@@ -1,0 +1,155 @@
+* {
+ font-family: ftltlt; /* set name */
+ font-weight: 100;
+ 
+  
+}
+
+.stage {  
+    position: center;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow:hidden;    
+}
+
+.bannerSize{ 
+width: 300px; 
+height: 600px; 
+background-color: black;
+color: white;
+position: relative;
+}
+
+.bannerHolder {
+ padding-left: 35px;
+}
+
+.h1 {
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+
+.h2 {
+  font-size: 33px;
+  font-weight: lighter;
+  margin-top: 1px;
+  margin-bottom: 0;
+}
+
+.h3 {
+
+  font-size: 21px;
+  font-weight: 380;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+
+ul,
+.li{
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  font-size: 15px;
+
+}
+
+
+@font-face {
+  font-family: ftltlt; /* set name */
+  src: url(../fonts/ftltlt-webfont.woff); /* url of the font */
+}
+
+.kutucontainer {
+
+  display: flex;
+  position: absolute;
+  gap: 5px;
+  top: 20px;
+  left: 37px;
+  
+}
+
+.kutuone-child {
+
+  width: 17px;
+  height: 6px;
+  z-index: 99;
+  position: relative;
+  
+}
+
+.first {
+
+    background-color: #9000ff;
+}
+
+.second {
+
+
+    background-color: #55559f;
+}
+
+.third {
+
+    background-color: #b0b0eb;
+}
+
+.hi {
+    position: absolute;
+    top: 25px;
+    right: 111px;
+}
+
+.simkaart {
+    transform: rotate(90deg);
+    left: 23px;
+    position: relative;
+    
+    
+    
+
+
+}
+
+
+.button {
+
+  background-color: #7272dd;
+  color: white;
+  border-radius: 6px;
+  display: inline-block;
+  right: 50px;
+  bottom: 50px;
+  padding: 0px 50px;
+  border: 1px solid white;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  transition: transform 180ms ease-in-out;
+
+}
+
+.button:hover {
+
+  background-color: #191435;
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+
+.yuvarlak1 {
+
+  width: 440px;
+  height: 450px;
+  background-color: #7272dd;
+  border-radius: 100%;
+  
+  position:absolute;
+  z-index: 0;
+  bottom: -270px;
+  left: -60px;
+}
