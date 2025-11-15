@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+   
+    
+   
+    
+    
+    
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    
+
+    
+    
+}
+
+.logo {
+
+    margin-right: 160px;
+    
+}
+
+.login {
+    margin-left: 160px;
+    
+}
